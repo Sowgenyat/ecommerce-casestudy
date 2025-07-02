@@ -1,5 +1,5 @@
-CREATE DATABASE ecommercedb;
-USE ecommercedb;
+create database ecommercedb;
+USE  ecommercedb;
 
 #customer table
 create table customers (
