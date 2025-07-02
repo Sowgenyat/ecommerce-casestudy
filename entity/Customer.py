@@ -1,10 +1,11 @@
 
 class Customer:
-    def __init__(self, customer_id=None, name="", email="", password=""):
+    def __init__(self, customer_id=None, name="", email="", password="",username=""):
         self.__customer_id = customer_id
         self.__name = name
         self.__email = email
         self.__password = password
+        self.__username= username
 
 
     def get_customer_id(self):
@@ -16,6 +17,11 @@ class Customer:
         return self.__name
     def set_name(self, name):
         self.__name = name
+
+    def get_username(self):
+        return self.__username
+    def set_username(self, username):
+        self.__username =  username
 
     def get_email(self):
         return self.__email

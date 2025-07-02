@@ -1,3 +1,5 @@
-class OrderNotFoundException(Exception):
-    def __init__(self, message="Order ID not found"):
+class ProductNotFoundException(Exception):
+    def __init__(self, message="Product ID not found"):
+        super().__init__(message)class ProductNotFoundException(Exception):
+    def __init__(self, message="Product ID not found"):
         super().__init__(message)
